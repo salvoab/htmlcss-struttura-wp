@@ -8,6 +8,10 @@
   float: left;
 }
 
+.mt-20{
+  margin-top: 20px;
+}
+
 .container{
   width: 75vw;
   margin: auto;
@@ -57,10 +61,6 @@ aside.temi{
   padding: 20px;
 }
 
-aside.temi ul{
-  margin-top: 20px;
-}
-
 aside.temi ul > li{
   list-style: none;
 }
@@ -72,14 +72,17 @@ main{
   padding: 20px;
 }
 
-main p{
-  margin-top: 20px;
-}
-
 aside.contenitore-widgets{
   width: 20%;
-  height: 1000px;
+  height: 1500px;
   background: pink;
+}
+
+.widget{
+  width: 95%;
+  height: 300px;
+  padding: 20px;
+  background-color: white;
 }
 
 footer{
