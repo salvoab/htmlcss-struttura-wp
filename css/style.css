@@ -135,6 +135,7 @@ footer{
   width: 75vw;
   height: 150px;
   text-align: center;
+  margin-bottom: 20px;
   background-color: lightgrey;
   color: grey;
 }
