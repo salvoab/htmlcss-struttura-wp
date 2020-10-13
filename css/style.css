@@ -12,6 +12,10 @@
   margin-top: 20px;
 }
 
+.mt-30{
+  margin-top: 30px;
+}
+
 .container{
   width: 75vw;
   margin: auto;
@@ -55,10 +59,11 @@ nav{
 }
 
 aside.temi{
-  width: 20%;
+  width: 19%;
   height: 350px;
   background: red;
   padding: 20px;
+  margin-right: 1%;
 }
 
 aside.temi ul > li{
@@ -66,10 +71,11 @@ aside.temi ul > li{
 }
 
 main{
-  width: 60%;
+  width: 59%;
   height: 250px;
   background: green;
   padding: 20px;
+  margin-right: 1%;
 }
 
 aside.contenitore-widgets{
@@ -83,6 +89,7 @@ aside.contenitore-widgets{
   height: 300px;
   padding: 20px;
   background-color: white;
+  margin-left: 5%;
 }
 
 footer{
