@@ -16,6 +16,10 @@
   margin-top: 30px;
 }
 
+.br-10{
+  border-radius: 10px;
+}
+
 .container{
   width: 75vw;
   margin: auto;
@@ -61,7 +65,7 @@ nav{
 aside.temi{
   width: 19%;
   height: 350px;
-  background: red;
+  background: white;
   padding: 20px;
   margin-right: 1%;
 }
@@ -73,15 +77,14 @@ aside.temi ul > li{
 main{
   width: 59%;
   height: 250px;
-  background: green;
+  background: white;
   padding: 20px;
   margin-right: 1%;
 }
 
 aside.contenitore-widgets{
   width: 20%;
-  height: 1500px;
-  background: pink;
+  height: 1000px;
 }
 
 .widget{
