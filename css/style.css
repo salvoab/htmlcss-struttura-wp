@@ -96,6 +96,11 @@ aside.temi{
   margin-right: 1%;
 }
 
+.rss{
+  color: orange;
+  cursor: pointer;
+}
+
 aside.temi ul > li{
   list-style: none;
   color: green;
