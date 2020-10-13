@@ -53,6 +53,10 @@ h1{
   color: white;
 }
 
+h2{
+  font-size: 1.2em;
+}
+
 nav{
   width: 75vw;
   height: 40px;
@@ -72,6 +76,7 @@ aside.temi{
 
 aside.temi ul > li{
   list-style: none;
+  color: green;
 }
 
 main{
