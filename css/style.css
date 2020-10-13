@@ -127,6 +127,8 @@ aside.contenitore-widgets{
   padding: 20px;
   background-color: white;
   margin-left: 5%;
+  /*in attesa delle lezioni sul css responsive*/
+  overflow: hidden;
 }
 
 footer{
