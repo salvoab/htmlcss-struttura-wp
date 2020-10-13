@@ -106,6 +106,7 @@ aside.temi{
 aside.temi ul > li{
   list-style: none;
   color: green;
+  padding: 8px;
 }
 
 main{
