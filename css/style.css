@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Utility */
 .float-left{
   float: left;
 }
@@ -19,6 +20,7 @@
 .br-10{
   border-radius: 10px;
 }
+/*Fine Utility*/
 
 .container{
   width: 75vw;
@@ -63,7 +65,7 @@ nav{
   position: absolute;
   bottom: 0;
   left: 0;
-  background: darkgrey;
+  background: #696969;
 }
 
 nav > ul > li{
@@ -76,7 +78,7 @@ nav > ul > li{
 }
 
 nav > ul > li:hover{
-  background-color: #696969;
+  background-color: darkgrey;
 }
 
 nav > ul > li > a{
@@ -130,5 +132,17 @@ aside.contenitore-widgets{
 footer{
   width: 75vw;
   height: 150px;
+  text-align: center;
   background-color: lightgrey;
+  color: grey;
+}
+
+.foot-icon{
+  font-size: 4em;
+  padding: 3% 10%;
+}
+
+.foot-icon:hover{
+  cursor: pointer;
+  color: blue;
 }
