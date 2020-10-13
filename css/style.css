@@ -54,10 +54,11 @@ aside.temi{
   width: 20%;
   height: 350px;
   background: red;
+  padding: 20px;
 }
 
 aside.temi ul{
-  padding: 20px;
+  margin-top: 20px;
 }
 
 aside.temi ul > li{
@@ -68,6 +69,11 @@ main{
   width: 60%;
   height: 250px;
   background: green;
+  padding: 20px;
+}
+
+main p{
+  margin-top: 20px;
 }
 
 aside.contenitore-widgets{
