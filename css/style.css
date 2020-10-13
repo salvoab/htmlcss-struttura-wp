@@ -66,6 +66,28 @@ nav{
   background: darkgrey;
 }
 
+nav > ul > li{
+  /*0 pixel sopra e sotto, 10px sinistra e destra*/
+  padding: 0 10px;
+  line-height: 40px;
+  display: inline-block;
+  list-style: none;
+  vertical-align: middle;
+}
+
+nav > ul > li:hover{
+  background-color: #696969;
+}
+
+nav > ul > li > a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 800;
+  display: inline-block;
+  height: 100%;
+}
+
 aside.temi{
   width: 19%;
   height: 350px;
