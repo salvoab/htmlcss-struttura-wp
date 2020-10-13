@@ -18,6 +18,8 @@ header{
   width: 75vw;
   height: 300px;
   position: relative;
+  margin-top: 10px;
+  padding-top: 10px;
   text-align: center;
   background: white;
 }
@@ -25,9 +27,18 @@ header{
 #intestazione{
   width: 73vw;
   height: 250px;
-  margin-top: 10px;
   margin: auto;
-  background: lightgrey;
+  background-image: url("../img/natural-default-header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.logo{
+  width: 40%;
+}
+
+h1{
+  color: white;
 }
 
 nav{
@@ -51,7 +62,7 @@ main{
   background: green;
 }
 
-aside.text-widget{
+aside.contenitore-widgets{
   width: 20%;
   height: 1000px;
   background: pink;
