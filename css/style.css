@@ -56,6 +56,14 @@ aside.temi{
   background: red;
 }
 
+aside.temi ul{
+  padding: 20px;
+}
+
+aside.temi ul > li{
+  list-style: none;
+}
+
 main{
   width: 60%;
   height: 250px;
