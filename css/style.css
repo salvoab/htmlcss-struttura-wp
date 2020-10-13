@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.float-left{
+  float: left;
+}
+
+.container{
+  width: 75vw;
+  margin: auto;
+  background: orange;
+}
+
+header{
+  width: 75vw;
+  height: 300px;
+  position: relative;
+  text-align: center;
+  background: white;
+}
+
+#intestazione{
+  width: 73vw;
+  height: 250px;
+  margin-top: 10px;
+  margin: auto;
+  background: lightgrey;
+}
+
+nav{
+  width: 75vw;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: darkgrey;
+}
+
+aside.temi{
+  width: 20%;
+  height: 350px;
+  background: red;
+}
+
+main{
+  width: 60%;
+  height: 250px;
+  background: green;
+}
+
+aside.text-widget{
+  width: 20%;
+  height: 1000px;
+  background: pink;
+}
+
+footer{
+  width: 75vw;
+  height: 150px;
+  background-color: lightgrey;
+}
