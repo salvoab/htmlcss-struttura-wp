@@ -17,50 +17,33 @@
   margin-top: 30px;
 }
 
-.br-10{
-  border-radius: 10px;
-}
 /*Fine Utility*/
 
-.container{
-  width: 75vw;
-  margin: auto;
+body{
   background-image: url("../img/natural-default-pattern.png");
 }
 
+.container{
+  width: 1000px;
+  margin: auto;
+}
+
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 header{
-  width: 75vw;
+  width: 1000px;
   height: 300px;
   position: relative;
-  margin-top: 10px;
-  padding-top: 10px;
   text-align: center;
-  background: white;
-}
-
-#intestazione{
-  width: 73vw;
-  height: 250px;
-  margin: auto;
-  background-image: url("../img/natural-default-header.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.logo{
-  width: 40%;
-}
-
-h1{
-  color: white;
-}
-
-h2{
-  font-size: 1.2em;
+  background: red;
 }
 
 nav{
-  width: 75vw;
+  width: 1000px;
   height: 40px;
   position: absolute;
   bottom: 0;
@@ -68,85 +51,32 @@ nav{
   background: #696969;
 }
 
-nav > ul > li{
-  /*0 pixel sopra e sotto, 10px sinistra e destra*/
-  padding: 0 10px;
-  line-height: 40px;
-  display: inline-block;
-  list-style: none;
-  vertical-align: middle;
-}
-
-nav > ul > li:hover{
-  background-color: darkgrey;
-}
-
-nav > ul > li > a{
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  font-weight: 800;
-  display: inline-block;
-  height: 100%;
-}
-
 aside.temi{
-  width: 19%;
+  width: 20%;
   height: 350px;
-  background: white;
+  background: blue;
   padding: 20px;
-  margin-right: 1%;
-}
-
-.rss{
-  color: orange;
-  cursor: pointer;
-}
-
-aside.temi ul > li{
-  list-style: none;
-  color: green;
-  padding: 8px;
 }
 
 main{
-  width: 59%;
+  width: 50%;
   height: 250px;
-  background: white;
+  background: purple;
   padding: 20px;
-  margin-right: 1%;
+  margin: 0 5%;
 }
 
 aside.contenitore-widgets{
   width: 20%;
   height: 1000px;
-}
-
-.widget{
-  width: 95%;
-  height: 300px;
-  padding: 20px;
-  background-color: white;
-  margin-left: 5%;
-  /*in attesa delle lezioni sul css responsive*/
-  overflow: hidden;
+  background: pink;
 }
 
 footer{
-  width: 75vw;
+  width: 1000px;
   height: 150px;
   text-align: center;
   margin-bottom: 20px;
   background-color: lightgrey;
   color: grey;
-}
-
-.foot-icon{
-  font-size: 4em;
-  padding: 3% 10%;
-}
-
-.foot-icon:hover{
-  cursor: pointer;
-  color: blue;
 }
